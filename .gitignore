@@ -1,0 +1,28 @@
+# Ignore les dossiers de configuration et de build
+.vscode/
+node_modules/
+out/
+
+# Ignore les fichiers de log et d'erreurs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore les fichiers générés par l'éditeur
+*.code-workspace
+*.vsix
+
+# Ignore les fichiers de cache de Mac et d'autres systèmes
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers spécifiques à un éditeur
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore les fichiers de configuration utilisateur
+.env

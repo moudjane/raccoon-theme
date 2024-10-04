@@ -1,0 +1,26 @@
+{
+  "name": "raccoontheme",
+  "displayName": "Raccoon Theme",
+  "description": "A theme with both light and dark modes",
+  "version": "0.0.2",
+  "engines": {
+      "vscode": "^1.94.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Raccoon Dark Theme",
+              "uiTheme": "vs-dark",
+              "path": "./themes/raccoon-dark-theme-color-theme.json"
+          },
+          {
+              "label": "Raccoon Light Theme",
+              "uiTheme": "vs",
+              "path": "./themes/raccoon-light-theme-color-theme.json"
+          }
+      ]
+  }
+}
